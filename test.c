@@ -20,8 +20,8 @@ int main(void)
             _delay_ms(2);
             i = (i+1)% 8;
         }
-        PORTA = 0xFF;
-        _delay_ms(200);
+        PORTA = 0xFF;//comment this for not to blink
+        _delay_ms(200);//comment this for not to blink
 
 
     }
